@@ -1,0 +1,68 @@
+@import url('estilos/badaz.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+
+    background-color: blanchedalmond;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-principal{
+    min-height: 600px;  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    height: 358px;
+    margin-left: 10px;
+}
+
+.nombre-badaz{
+    font-size: 32px;
+}
+
+.cargo-badaz{
+    font-size: 26px;
+}
+
+.texto-badaz{
+    font-size: 20px;
+}
+
+.contenedor-texto-badaz p {
+    margin-top: 0.3rem;
+}
+
+.contenedor-texto-badaz{
+    margin: 0 auto;
+}

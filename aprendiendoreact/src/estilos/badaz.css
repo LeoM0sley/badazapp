@@ -1,0 +1,11 @@
+.badaz-contenedor{
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(255, 194, 81)
+    
+}
